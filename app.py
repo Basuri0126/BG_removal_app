@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 from io import BytesIO
 
-
+st.title('Shivam Yadav Work for assessment prupose')
 def remove_background(image):
     # Convert image to RGB if it has an alpha channel
     if image.mode == 'RGBA':
